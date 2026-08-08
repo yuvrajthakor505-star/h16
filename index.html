@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA FEMME • Bridal Studio, Hair, Makeup & Beauty Since 1968</title>
+  <meta name="description" content="Over five decades of luxury bridal beauty, hair styling, avantgarde makeup, and skin care in Ahmedabad, India." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- SINCE 1968 PREMIUM POPUP -->
+  <div id="heritage-popup" class="heritage-popup-overlay" role="dialog" aria-modal="true" aria-label="La Femme Heritage">
+    <div class="heritage-popup-content">
+      <button id="popup-close-btn" class="popup-close-btn" aria-label="Close Popup">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-8-photo-thumb.jpg" alt="La Femme Heritage" class="heritage-popup-bg-img" />
+      <div class="heritage-popup-inner">
+        <span class="section-eyebrow">A Legacy of Artistry</span>
+        <h2 class="heritage-popup-brand">LA FEMME</h2>
+        <div class="heritage-popup-year">1968</div>
+        <p class="heritage-popup-quote">"Over five decades of beauty, artistry and legacy."</p>
+        <div class="heritage-popup-divider"></div>
+        <div class="heritage-popup-actions">
+          <button id="popup-enter-btn" class="btn-primary">
+            <span>ENTER LA FEMME</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <a id="popup-legacy-link" href="#legacy" class="btn-text-link">Explore Legacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY HEADER & NAVIGATION -->
+  <header id="header-nav" class="header-nav">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <span class="brand-logo-text">LA FEMME</span>
+        <span class="brand-logo-sub">SINCE 1968 • AHMEDABAD</span>
+      </a>
+
+      <nav class="nav-menu-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">HOME</a>
+        <a href="#bridal" class="nav-link">BRIDAL</a>
+        <a href="#avantgarde" class="nav-link">AVANTGARDE</a>
+        <a href="#hair-makeup" class="nav-link">HAIR & MAKEUP</a>
+        <a href="#learn" class="nav-link">LEARN WITH US</a>
+        <a href="#legacy" class="nav-link">LEGACY</a>
+        <a href="#media" class="nav-link">MEDIA</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </nav>
+
+      <div id="nav-hamburger" class="nav-hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay">
+    <div class="mobile-menu-links">
+      <a href="#home" class="mobile-nav-link">HOME</a>
+      <a href="#bridal" class="mobile-nav-link">BRIDAL STUDIO</a>
+      <a href="#avantgarde" class="mobile-nav-link">AVANTGARDE</a>
+      <a href="#hair-makeup" class="mobile-nav-link">HAIR & MAKEUP</a>
+      <a href="#learn" class="mobile-nav-link">LEARN WITH US</a>
+      <a href="#legacy" class="mobile-nav-link">THE LEGACY</a>
+      <a href="#media" class="mobile-nav-link">RECOMMENDATION & MEDIA</a>
+      <a href="#packages" class="mobile-nav-link">PACKAGES</a>
+      <a href="#contact" class="mobile-nav-link">CONTACT US</a>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-container">
+      <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-8-photo-thumb.jpg" alt="La Femme Haute Couture Bridal" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-heritage-badge">
+        <i class="fa-solid fa-crown" style="font-size: 0.8rem;"></i>
+        <span>SINCE 1968</span>
+      </div>
+      <h1 class="hero-main-title">LA FEMME</h1>
+      <h2 class="hero-sub-title">BRIDAL STUDIO</h2>
+      <p class="hero-tagline">"Beauty, artistry & timeless elegance."</p>
+      
+      <div class="hero-cta-group">
+        <a href="#bridal" class="btn-primary">
+          <span>EXPLORE BRIDAL</span>
+          <i class="fa-solid fa-arrow-down"></i>
+        </a>
+        <a href="#legacy" class="btn-outline btn-outline-gold">
+          <span>DISCOVER OUR LEGACY</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>SCROLL</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- HERITAGE INTRO SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="heritage-intro-grid">
+        <div class="heritage-intro-visual reveal-on-scroll">
+          <div class="heritage-year-display">1968</div>
+          <div class="heritage-image-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-legacy-1-thumb.jpg" alt="La Femme Heritage Atelier" class="heritage-img-main" />
+            <div class="heritage-image-frame"></div>
+          </div>
+        </div>
+
+        <div class="heritage-text-content reveal-on-scroll delay-1">
+          <span class="section-eyebrow">FIVE DECADES OF ARTISTRY</span>
+          <h2 class="heritage-headline">"Five decades of experience, creativity and beauty."</h2>
+          <p class="heritage-body-text">
+            Since its founding in 1968 in Ahmedabad, La Femme has defined luxury bridal beauty and salon craftsmanship. Over five decades of passion and continuous refinement have shaped an indelible legacy of timeless beauty, haute hair styling, and couture makeup artistry.
+          </p>
+
+          <div class="heritage-stats-list">
+            <div class="stat-item">
+              <div class="stat-item-number">55+</div>
+              <div class="stat-item-label">Years of Mastery</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item-number">1968</div>
+              <div class="stat-item-label">Heritage Foundation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><div class="hairline-divider"></div></div>
+
+  <!-- BRIDAL STUDIO SECTION -->
+  <section id="bridal" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">HAUTE COUTURE BRIDAL</span>
+        <h2 class="section-title">BRIDAL STUDIO</h2>
+        <p class="section-subtitle">Crafting timeless bridal transformations tailored to your unique beauty and grand occasion.</p>
+      </div>
+
+      <!-- Quote Box -->
+      <div class="bridal-quote-box reveal-on-scroll">
+        <p class="bridal-quote-text">"On your wedding day you should look like yourself at your most beautiful."</p>
+        <span class="bridal-quote-author">— Bobbi Brown</span>
+      </div>
+
+      <!-- Bridal Journey Categories -->
+      <div class="bridal-journey-grid">
+        <div class="bridal-card reveal-on-scroll">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 01</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-photo-thumb.jpg" alt="Engagement Bridal Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">ENGAGEMENT</h3>
+            <p class="bridal-card-desc">Radiant, delicate, and glowing aesthetics tailored for your first celebration of forever.</p>
+          </div>
+        </div>
+
+        <div class="bridal-card reveal-on-scroll delay-1">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 02</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-8-photo-thumb.jpg" alt="Mehendi Bridal Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">MEHENDI</h3>
+            <p class="bridal-card-desc">Vibrant, playful hair styling and dew-soft makeup designed for joyous henna rituals.</p>
+          </div>
+        </div>
+
+        <div class="bridal-card reveal-on-scroll delay-2">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 03</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/bridal-1-photo-thumb.jpg" alt="Sangeet Bridal Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">SANGEET</h3>
+            <p class="bridal-card-desc">Glamorous, high-impact looks engineered to shine under ambient musical stage lights.</p>
+          </div>
+        </div>
+
+        <div class="bridal-card reveal-on-scroll">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 04</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-photo-thumb.jpg" alt="Cocktail Bridal Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">COCKTAIL</h3>
+            <p class="bridal-card-desc">Sleek, avantgarde evening aesthetics combining sharp eyes and editorial hair design.</p>
+          </div>
+        </div>
+
+        <div class="bridal-card reveal-on-scroll delay-1">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 05</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/bridal-photo-thumb.jpg" alt="Royal Wedding Bridal Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">WEDDING</h3>
+            <p class="bridal-card-desc">The ultimate royal bridal transformation featuring flawless skin, intricate draping, and timeless elegance.</p>
+          </div>
+        </div>
+
+        <div class="bridal-card reveal-on-scroll delay-2">
+          <div class="bridal-card-img-wrapper">
+            <span class="bridal-card-badge">CEREMONY 06</span>
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-49-thumb.jpg" alt="Grand Reception Look" class="bridal-card-img" />
+          </div>
+          <div class="bridal-card-body">
+            <h3 class="bridal-card-title">RECEPTION</h3>
+            <p class="bridal-card-desc">Sophisticated grand finale lookbook pairing regal hair adornment with luminous high-fashion makeup.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center;" class="reveal-on-scroll">
+        <a href="#bridal-gallery" class="btn-primary">
+          <span>EXPLORE BRIDAL LOOKS</span>
+          <i class="fa-solid fa-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRIDAL LOOK BOOK GALLERY -->
+  <section id="bridal-gallery" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">CURATED EDITORIAL PORTFOLIO</span>
+        <h2 class="section-title">BRIDAL LOOK BOOK</h2>
+        <p class="section-subtitle">A visual celebration of La Femme brides across generations.</p>
+      </div>
+
+      <div class="masonry-gallery-grid">
+        <div class="gallery-item reveal-on-scroll" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-photo-thumb.jpg" data-title="Royal Gold Wedding Couture">
+          <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-photo-thumb.jpg" alt="Royal Gold Wedding Couture" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">BRIDAL COUTURE</span>
+              <h3 class="gallery-overlay-title">Royal Gold Wedding</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-8-photo-thumb.jpg" data-title="Luminous Traditional Bride">
+          <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-5-6-7-8-photo-thumb.jpg" alt="Luminous Traditional Bride" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">TRADITIONAL ARTISTRY</span>
+              <h3 class="gallery-overlay-title">Luminous Bride</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/bridal-1-photo-thumb.jpg" data-title="Regal Crimson Bridal Statement">
+          <img src="https://www.lafemmeindia.com/data/gallery/bridal-1-photo-thumb.jpg" alt="Regal Crimson Bridal Statement" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">REGAL CRIMSON</span>
+              <h3 class="gallery-overlay-title">Crimson Statement</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-photo-thumb.jpg" data-title="High-Fashion Bridal Styling">
+          <img src="https://www.lafemmeindia.com/data/gallery/bridal-studio-1-2-3-4-photo-thumb.jpg" alt="High-Fashion Bridal Styling" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">HAUTE STYLING</span>
+              <h3 class="gallery-overlay-title">Bridal Elegance</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll delay-2" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/bridal-photo-thumb.jpg" data-title="Timeless Heritage Bride">
+          <img src="https://www.lafemmeindia.com/data/gallery/bridal-photo-thumb.jpg" alt="Timeless Heritage Bride" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">HERITAGE LOOK</span>
+              <h3 class="gallery-overlay-title">Timeless Bride</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-49-thumb.jpg" data-title="Opulent Reception Glamour">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-49-thumb.jpg" alt="Opulent Reception Glamour" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">RECEPTION COUTURE</span>
+              <h3 class="gallery-overlay-title">Opulent Reception</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="bridal" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-46-thumb.jpg" data-title="Contemporary Bridal Glow">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-46-thumb.jpg" alt="Contemporary Bridal Glow" class="gallery-item-img" />
+          <div class="gallery-item-overlay">
+            <div class="gallery-overlay-text">
+              <span class="gallery-overlay-tag">CONTEMPORARY GLOW</span>
+              <h3 class="gallery-overlay-title">Modern Heritage</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVANTGARDE SECTION (DARK ARTISTIC) -->
+  <section id="avantgarde" class="section section-dark">
+    <div class="container">
+      <div class="avantgarde-header-block reveal-on-scroll">
+        <div>
+          <span class="section-eyebrow" style="color: var(--accent-gold);">HIGH FASHION ARTISTRY</span>
+          <h2 class="avantgarde-title-large">AVANTGARDE</h2>
+          <p style="color: var(--text-light-muted); font-size: 1.1rem; margin-top: 0.5rem; letter-spacing: 0.15em; text-transform: uppercase;">
+            HI-FASHION HAIR & MAKEUP
+          </p>
+        </div>
+
+        <div class="slider-controls">
+          <button id="slider-prev-btn" class="slider-arrow-btn" aria-label="Previous Slide">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="slider-next-btn" class="slider-arrow-btn" aria-label="Next Slide">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <p class="reveal-on-scroll" style="max-width: 750px; margin-bottom: 3rem; color: var(--text-light-muted); font-size: 1.05rem;">
+        Where boundary-pushing creativity meets precise technical perfection. Our Avantgarde collection showcases bold hair sculptures, artistic makeup palettes, and conceptual fashion aesthetics designed for runway, editorial, and haute occasions.
+      </p>
+
+      <!-- Horizontal Slider Container -->
+      <div id="avantgarde-slider" class="horizontal-slider-container reveal-on-scroll delay-1">
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-photo-thumb.jpg" data-title="Conceptual Editorial Hair">
+          <img src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-photo-thumb.jpg" alt="Avantgarde Editorial Look 01" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 01</div>
+            <h3 class="slider-card-title">Editorial Hair Sculpture</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-3-photo-thumb.jpg" data-title="High-Fashion Runway Palette">
+          <img src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-3-photo-thumb.jpg" alt="Avantgarde Editorial Look 02" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 02</div>
+            <h3 class="slider-card-title">Runway Palette</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-40-thumb.jpg" data-title="Sleek Modern Sculpture">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-40-thumb.jpg" alt="Avantgarde Editorial Look 03" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 03</div>
+            <h3 class="slider-card-title">Sleek Sculpture</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-41-thumb.jpg" data-title="Artistic Monochromatic Glam">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-41-thumb.jpg" alt="Avantgarde Editorial Look 04" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 04</div>
+            <h3 class="slider-card-title">Monochromatic Glam</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-47-thumb.jpg" data-title="Graphic Eye & Hair Artistry">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-47-thumb.jpg" alt="Avantgarde Editorial Look 05" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 05</div>
+            <h3 class="slider-card-title">Graphic Line & Form</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-44-thumb.jpg" data-title="Couture Avantgarde Texture">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-44-thumb.jpg" alt="Avantgarde Editorial Look 06" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 06</div>
+            <h3 class="slider-card-title">Couture Texture</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-45-thumb.jpg" data-title="High Contrast Drama">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-45-thumb.jpg" alt="Avantgarde Editorial Look 07" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 07</div>
+            <h3 class="slider-card-title">High Contrast Drama</h3>
+          </div>
+        </div>
+
+        <div class="slider-card" data-lightbox-trigger data-gallery-group="avantgarde" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-46-thumb.jpg" data-title="Geometric Hair Architecture">
+          <img src="https://www.lafemmeindia.com/data/gallery/lafemme-avantgarde-photo-46-thumb.jpg" alt="Avantgarde Editorial Look 08" class="slider-card-img" />
+          <div class="slider-card-caption">
+            <div class="slider-card-number">LOOK 08</div>
+            <h3 class="slider-card-title">Hair Architecture</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAIRSTYLE & MAKEUP SECTION -->
+  <section id="hair-makeup" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">STUDIO BEAUTY LOOKBOOK</span>
+        <h2 class="section-title">HAIRSTYLE & MAKEUP</h2>
+        <p class="section-subtitle">Exquisite hair design, skin ritual, and personal makeup aesthetics for every signature moment.</p>
+      </div>
+
+      <div class="hair-makeup-grid">
+        <div class="lookbook-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/avantgarde-photo-thumb.jpg" data-title="Precision Hair Sculpture">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/avantgarde-photo-thumb.jpg" alt="Precision Hair Sculpture" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Precision Hair Styling</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-1-thumb.jpg" data-title="Soft Dewy Makeup">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-1-thumb.jpg" alt="Soft Dewy Makeup" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Soft Dewy Glam</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll delay-2" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-5-thumb.jpg" data-title="Couture Hair Updo">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-5-thumb.jpg" alt="Couture Hair Updo" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Couture Updo</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-3-4-photo-thumb.jpg" data-title="Runway Beauty Finish">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/avantgarde-1-2-3-4-photo-thumb.jpg" alt="Runway Beauty Finish" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Runway Polish</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-16-thumb.jpg" data-title="Signature Smoky Eye">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-16-thumb.jpg" alt="Signature Smoky Eye" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Signature Eye Artistry</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll delay-2" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-17-thumb.jpg" data-title="Intricate Braid Styling">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-17-thumb.jpg" alt="Intricate Braid Styling" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Intricate Hair Weaving</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-19-thumb.jpg" data-title="Luminous Skin Finish">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-hairstyle-and-makeup-19-thumb.jpg" alt="Luminous Skin Finish" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Luminous Skin Therapy</h3>
+          </div>
+        </div>
+
+        <div class="lookbook-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="hairmakeup" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-23-thumb.jpg" data-title="Modern Festive Look">
+          <div class="lookbook-img-frame">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-bridal-studio-23-thumb.jpg" alt="Modern Festive Look" class="lookbook-img" />
+          </div>
+          <div class="lookbook-footer">
+            <h3 class="lookbook-title">Festive Glamour</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARN WITH US (ACADEMY) -->
+  <section id="learn" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">MASTERCLASS & ACADEMY</span>
+        <h2 class="section-title">LEARN WITH US</h2>
+        <p class="section-subtitle">Passionate education led by master stylists and artists. Master professional techniques or refine your personal beauty routine.</p>
+      </div>
+
+      <!-- Feature Course Cards -->
+      <div class="academy-courses-grid">
+        <div class="academy-card reveal-on-scroll">
+          <div>
+            <span class="academy-badge">CAREER DIPLOMA</span>
+            <h3 class="academy-card-title">PROFESSIONAL HAIRSTYLE & MAKEUP COURSE</h3>
+            <p style="color: var(--text-muted); line-height: 1.7;">
+              Comprehensive hands-on professional training covering foundational skin science, haute hair construction, bridal makeup techniques, and salon client management.
+            </p>
+            <div class="academy-feature-list">
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Master Hair & Makeup Artistry</div>
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Professional Hairstyle Workshops</div>
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Live Model Practical Modules</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.lafemmeindia.com/learn-with-us-enquiry-form.html" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%;">
+              <span>VIEW APPLICATION FORM</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="academy-card reveal-on-scroll delay-1">
+          <div>
+            <span class="academy-badge">PERSONAL MASTERY</span>
+            <h3 class="academy-card-title">PERSONAL GROOMING WORKSHOP</h3>
+            <p style="color: var(--text-muted); line-height: 1.7;">
+              An intimate workshop designed to empower you with personalized skincare regimens, daily hair styling mastery, and flawless self-makeup application for every occasion.
+            </p>
+            <div class="academy-feature-list">
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Personal Makeup Workshops</div>
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Custom Skincare Analysis</div>
+              <div class="academy-feature-item"><i class="fa-solid fa-check"></i> Everyday to Evening Glamour</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.lafemmeindia.com/learn-with-us-enquiry-form.html" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold" style="width: 100%;">
+              <span>EXPLORE COURSES</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academy Visual Gallery -->
+      <div class="academy-gallery-row reveal-on-scroll">
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-1-thumb.jpg" alt="Academy Class Session 01" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-9-thumb.jpg" alt="Academy Class Session 02" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-10-thumb.jpg" alt="Academy Class Session 03" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-11-thumb.jpg" alt="Academy Class Session 04" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-12-thumb.jpg" alt="Academy Class Session 05" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-13-thumb.jpg" alt="Academy Class Session 06" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-14-thumb.jpg" alt="Academy Class Session 07" class="academy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-learn-with-us-2-thumb.jpg" alt="Academy Class Session 08" class="academy-gallery-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK WITH US (CAREERS) -->
+  <section class="section">
+    <div class="container">
+      <div class="work-banner-box reveal-on-scroll">
+        <span class="section-eyebrow" style="color: var(--accent-gold);">CAREER OPPORTUNITIES</span>
+        <h2 class="work-highlight-text">"BE & SEE FABULOUS"</h2>
+        <p class="work-body-desc">
+          Join our distinguished creative family of master hair stylists, makeup artists, skin therapists, and salon management professionals at La Femme.
+        </p>
+        <a href="https://www.lafemmeindia.com/work-with-us-application-form.html" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <span>VIEW APPLICATION FORM</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE LA FEMME LEGACY -->
+  <section id="legacy" class="section" style="position: relative; overflow: hidden;">
+    <div class="legacy-watermark">1968</div>
+
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">OUR HERITAGE & VISIONARIES</span>
+        <h2 class="section-title">THE LA FEMME LEGACY</h2>
+        <p class="section-subtitle">Founded in 1968, La Femme represents a pioneering milestone in India’s luxury beauty industry.</p>
+      </div>
+
+      <!-- Key Figures -->
+      <div class="legacy-profiles-grid">
+        <div class="profile-card reveal-on-scroll">
+          <h3 class="profile-name">MR. SATISH CHRISTIAN</h3>
+          <span class="profile-role">FOUNDER & VISIONARY</span>
+          <p class="profile-bio">
+            Pioneered the founding of La Femme in 1968 in Ahmedabad. With visionary foresight and dedication, he laid the groundwork for over five decades of luxury salon culture and beauty excellence.
+          </p>
+        </div>
+
+        <div class="profile-card reveal-on-scroll delay-1">
+          <h3 class="profile-name">AANALL CHRISTIAN</h3>
+          <span class="profile-role">HAUTE STYLIST & CREATIVE DIRECTOR</span>
+          <p class="profile-bio">
+            Beginning her stellar career in 1997, Aanall Christian elevated La Femme into a nationally recognized haute bridal and avantgarde powerhouse, winning prestigious national awards and setting new standards in beauty artistry.
+          </p>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline-container">
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">1968</div>
+            <h4 class="timeline-title">FOUNDATION OF LA FEMME</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">1997</div>
+            <h4 class="timeline-title">AANALL CHRISTIAN BEGINS HER CAREER</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">2013</div>
+            <h4 class="timeline-title">FRANCHISE INDIA RECOGNITION</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">2014</div>
+            <h4 class="timeline-title">FRANCHISE INDIA RECOGNITION</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">2016</div>
+            <h4 class="timeline-title">AIHBA LIFETIME ACHIEVEMENT AWARD</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-year">2019</div>
+            <h4 class="timeline-title">TIMES AWARDS RECOGNITION</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legacy Gallery -->
+      <div class="legacy-gallery-grid reveal-on-scroll">
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-legacy-1-thumb.jpg" alt="La Femme Heritage Moment 01" class="legacy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-legacy-2-thumb.jpg" alt="La Femme Heritage Moment 02" class="legacy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-legacy-3-thumb.jpg" alt="La Femme Heritage Moment 03" class="legacy-gallery-img" />
+        <img src="https://www.lafemmeindia.com/data/gallery/lafemme-legacy-4-thumb.jpg" alt="La Femme Heritage Moment 04" class="legacy-gallery-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATION & MEDIA -->
+  <section id="media" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">PRESS & EDITORIAL COVERAGE</span>
+        <h2 class="section-title">RECOMMENDATION & MEDIA</h2>
+        <p class="section-subtitle">National features, editorial spotlights, and industry honors recognizing La Femme’s excellence.</p>
+      </div>
+
+      <div class="media-press-grid">
+        <div class="press-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/lafemme-times-retail-salon-ahmedabad-award-2018-thumb.jpg" data-title="Times Retail Salon Award 2018">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/lafemme-times-retail-salon-ahmedabad-award-2018-thumb.jpg" alt="Times Retail Salon Award 2018" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">TIMES AWARDS</span>
+            <h3 class="press-title">Times Retail Salon Award</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/salon-la-femme-celebrates-50-years-in-the-industry-with-owner-satish-christian-photo-thumb.jpg" data-title="50 Golden Years Celebration Feature">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/salon-la-femme-celebrates-50-years-in-the-industry-with-owner-satish-christian-photo-thumb.jpg" alt="50 Years Celebration" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">PRESS COVERAGE</span>
+            <h3 class="press-title">La Femme Celebrates 50 Years</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll delay-2" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/branding-magic-man-we-love-photo-thumb.jpg" data-title="Branding Magic Feature">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/branding-magic-man-we-love-photo-thumb.jpg" alt="Branding Magic Feature" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">INDUSTRY SPOTLIGHT</span>
+            <h3 class="press-title">Branding Magic Spotlight</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/branding-magic-man-we-love-2-photo-thumb.jpg" data-title="Beauty Industry Visionaries">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/branding-magic-man-we-love-2-photo-thumb.jpg" alt="Beauty Industry Visionaries" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">STYLE JOURNAL</span>
+            <h3 class="press-title">Beauty Industry Visionaries</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/masters-of-india-aibha-honours-photo-thumb.jpg" data-title="AIHBA Masters of India Honor">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/masters-of-india-aibha-honours-photo-thumb.jpg" alt="AIHBA Masters of India Honor" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">AIHBA HONORS</span>
+            <h3 class="press-title">Masters of India Honors</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll delay-2" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/gujarat-samachar-2018-photo-thumb.jpg" data-title="Gujarat Samachar 2018 Feature">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/gujarat-samachar-2018-photo-thumb.jpg" alt="Gujarat Samachar Feature" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">GUJARAT SAMACHAR</span>
+            <h3 class="press-title">Gujarat Samachar Feature</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/ahmedabad-times-2018-photo-thumb.jpg" data-title="Ahmedabad Times 2018">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/ahmedabad-times-2018-photo-thumb.jpg" alt="Ahmedabad Times 2018" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">AHMEDABAD TIMES</span>
+            <h3 class="press-title">Ahmedabad Times Feature</h3>
+          </div>
+        </div>
+
+        <div class="press-card reveal-on-scroll delay-1" data-lightbox-trigger data-gallery-group="press" data-src="https://www.lafemmeindia.com/data/gallery/ahmedabad-mirror-october-2018-photo-thumb.jpg" data-title="Ahmedabad Mirror October 2018">
+          <div class="press-img-wrapper">
+            <img src="https://www.lafemmeindia.com/data/gallery/ahmedabad-mirror-october-2018-photo-thumb.jpg" alt="Ahmedabad Mirror 2018" class="press-img" />
+          </div>
+          <div class="press-caption">
+            <span class="press-outlet">AHMEDABAD MIRROR</span>
+            <h3 class="press-title">Ahmedabad Mirror Feature</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS ARCHIVE CHRONICLE -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll" style="margin-bottom: 2.5rem;">
+        <span class="section-eyebrow">CHRONICLE OF HONORS</span>
+        <h2 class="section-title">AWARDS & ARCHIVE</h2>
+      </div>
+
+      <div class="awards-archive-wrapper reveal-on-scroll">
+        <div class="awards-flex-list">
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2019</span>
+            <span class="award-name-text">Times Awards</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">StyleSpeak - The Salon & Spa Journal</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">Femina, December Issue</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">AIHBA Honors</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">Gujarat Samachar</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">Ahmedabad Times</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">Ahmedabad Mirror</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2018</span>
+            <span class="award-name-text">Divya Bhaskar</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2016</span>
+            <span class="award-name-text">AIHBA Lifetime Achievement Award</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2014</span>
+            <span class="award-name-text">Indian Salon Awards</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2013</span>
+            <span class="award-name-text">Indian Salon Awards</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2012</span>
+            <span class="award-name-text">National Magazine Feature</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2011</span>
+            <span class="award-name-text">National Magazine Feature</span>
+          </div>
+
+          <div class="award-badge-pill">
+            <span class="award-year-tag">2009</span>
+            <span class="award-name-text">National Newspaper Feature</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRIDAL & NON-BRIDAL PACKAGES -->
+  <section id="packages" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">CUSTOM BEAUTY CONCIERGE</span>
+        <h2 class="section-title">BRIDAL & NON-BRIDAL PACKAGES</h2>
+        <p class="section-subtitle">Tailored beauty experiences for brides, family groups, and special occasion celebrations.</p>
+      </div>
+
+      <div class="packages-grid">
+        <div class="package-card reveal-on-scroll">
+          <div>
+            <span class="package-category">SIGNATURE COUTURE</span>
+            <h3 class="package-title">BRIDAL PACKAGES</h3>
+            <p class="package-description">Comprehensive luxury bridal transformations crafted for Engagement, Mehendi, Sangeet, Wedding, and Reception ceremonies.</p>
+            <div class="package-features-list">
+              <div class="package-feature-li"><i class="fa-solid fa-crown"></i> High Definition & Airbrush Makeup</div>
+              <div class="package-feature-li"><i class="fa-solid fa-crown"></i> Intricate Hair Construction & Draping</div>
+              <div class="package-feature-li"><i class="fa-solid fa-crown"></i> Pre-Bridal Skin Care Prep</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.lafemmeindia.com/bridal-packages-enquiry-form.html" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%;">
+              <span>PACKAGE ENQUIRY</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="package-card reveal-on-scroll delay-1">
+          <div>
+            <span class="package-category">EVENT ELEGANCE</span>
+            <h3 class="package-title">NON-BRIDAL PACKAGES</h3>
+            <p class="package-description">Sleek styling and luminous makeup designed for bridesmaids, festive celebrations, cocktail galas, and social events.</p>
+            <div class="package-features-list">
+              <div class="package-feature-li"><i class="fa-solid fa-star"></i> Custom Occasion Makeup</div>
+              <div class="package-feature-li"><i class="fa-solid fa-star"></i> Hair Blowouts & Updos</div>
+              <div class="package-feature-li"><i class="fa-solid fa-star"></i> Saree Draping & Styling</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.lafemmeindia.com/bridal-packages-enquiry-form.html" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold" style="width: 100%;">
+              <span>PACKAGE ENQUIRY</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="package-card reveal-on-scroll delay-2">
+          <div>
+            <span class="package-category">CELEBRATION TEAMS</span>
+            <h3 class="package-title">GROUP & DESTINATION</h3>
+            <p class="package-description">Dedicated team of senior artists available on-location worldwide for destination wedding entourages and family groups.</p>
+            <div class="package-features-list">
+              <div class="package-feature-li"><i class="fa-solid fa-plane"></i> Global On-Location Bridal Team</div>
+              <div class="package-feature-li"><i class="fa-solid fa-users"></i> Bridal Party & Family Styling</div>
+              <div class="package-feature-li"><i class="fa-solid fa-scissors"></i> Male Grooming Packages</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.lafemmeindia.com/bridal-packages-enquiry-form.html" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold" style="width: 100%;">
+              <span>PACKAGE ENQUIRY</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-layout-grid">
+        <div class="contact-info-block reveal-on-scroll">
+          <span class="section-eyebrow">VISIT OUR ATELIER</span>
+          <h2 class="contact-brand-title">LA FEMME</h2>
+          
+          <div class="contact-address-text">
+            <p style="margin-bottom: 0.5rem; font-weight: 500; color: var(--text-main);">
+              <i class="fa-solid fa-location-dot" style="color: var(--accent-gold); margin-right: 0.5rem;"></i>
+              103, Abhishilp Complex,
+            </p>
+            <p style="margin-bottom: 0.5rem;">Opp. ITC Narmada, Vastrapur,</p>
+            <p style="margin-bottom: 1.5rem;">Ahmedabad 380 015, Gujarat, INDIA.</p>
+
+            <p style="margin-bottom: 0.5rem; color: var(--text-main);">
+              <i class="fa-solid fa-phone" style="color: var(--accent-gold); margin-right: 0.5rem;"></i>
+              +91 - 9998240900
+            </p>
+            <p style="margin-bottom: 1.5rem; color: var(--text-main);">
+              <i class="fa-solid fa-envelope" style="color: var(--accent-gold); margin-right: 0.5rem;"></i>
+              info@lafemmeindia.com
+            </p>
+          </div>
+
+          <div class="contact-action-buttons">
+            <a href="tel:+919998240900" class="btn-primary">
+              <i class="fa-solid fa-phone"></i>
+              <span>CALL LA FEMME</span>
+            </a>
+            <a href="mailto:info@lafemmeindia.com" class="btn-outline">
+              <i class="fa-solid fa-envelope"></i>
+              <span>EMAIL US</span>
+            </a>
+            <a href="https://wa.link/mh5ab0" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WHATSAPP</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Embedded Map Area -->
+        <div class="contact-map-frame reveal-on-scroll delay-1">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.536965158229!2d72.5284!3d23.037!2m3!1f0!0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84b1626245bf%3A0x6b77248f2a1b9b24!2sAbhishilp%20Complex%2C%20Vastrapur%2C%20Ahmedabad!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            title="La Femme Studio Location Map"
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <h2 class="footer-brand-title">LA FEMME</h2>
+          <span style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.3em; color: var(--accent-gold);">SINCE 1968</span>
+          <p class="footer-brand-tagline">"Beauty, artistry and a legacy of excellence."</p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">NAVIGATION</h3>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bridal">Bridal Studio</a></li>
+            <li><a href="#avantgarde">Avantgarde</a></li>
+            <li><a href="#hair-makeup">Hair & Makeup</a></li>
+            <li><a href="#learn">Learn With Us</a></li>
+            <li><a href="#legacy">The Legacy</a></li>
+            <li><a href="#media">Media & Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">ATELIER CONTACT</h3>
+          <ul class="footer-links-list">
+            <li>103, Abhishilp Complex</li>
+            <li>Opp. ITC Narmada, Vastrapur</li>
+            <li>Ahmedabad 380 015, India</li>
+            <li><a href="tel:+919998240900">+91 - 9998240900</a></li>
+            <li><a href="mailto:info@lafemmeindia.com">info@lafemmeindia.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>© 2026 La Femme. All rights reserved.</div>
+        <div>
+          Official Website: 
+          <a href="https://www.lafemmeindia.com/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: underline;">
+            www.lafemmeindia.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox-modal" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image Gallery Lightbox">
+    <div class="lightbox-top-bar">
+      <div id="lightbox-counter" class="lightbox-counter">1 / 1</div>
+      <button id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Close Lightbox">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="lightbox-main-container">
+      <button id="lightbox-prev-btn" class="lightbox-arrow" aria-label="Previous Image">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="lightbox-img-wrapper">
+        <img id="lightbox-img" src="" alt="Gallery Image Enlarged" class="lightbox-image" />
+      </div>
+
+      <button id="lightbox-next-btn" class="lightbox-arrow" aria-label="Next Image">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div id="lightbox-caption" class="lightbox-caption-bar">La Femme Studio</div>
+  </div>
+
+  <!-- FLOATING ACTION BUTTONS -->
+  <div class="floating-actions-container">
+    <a href="https://wa.link/mh5ab0" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp-btn" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <button id="back-to-top-btn" class="float-btn back-to-top-btn" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>

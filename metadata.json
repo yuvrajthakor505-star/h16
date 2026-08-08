@@ -1,0 +1,6 @@
+{
+  "name": "La Femme Bridal Studio",
+  "description": "Luxury Bridal, Hair, Makeup, Skin & Beauty Studio since 1968 in Ahmedabad, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
